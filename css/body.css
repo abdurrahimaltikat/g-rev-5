@@ -1,0 +1,123 @@
+.body .header-icons{
+    display: flex;
+    flex-direction: row;
+    flex:20;
+}
+.body .header{
+    margin-top:24px;
+    display:flex;
+    flex-direction:row;
+    flex: 1;
+    margin-bottom: 12px;
+    
+}
+select{
+    border-color: white;
+    border-radius: 5px;
+    background-color: white;
+}
+.body .interaction{
+    flex:5;
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+.body.interaction a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+
+}
+.body.interaction a:hover{
+    background-color: white;
+    color: black;
+}
+
+.body .interaction-twitter{
+    flex:1;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: -10px;
+
+}
+
+.body .interaction-instagram{
+    flex:1;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: -10px;
+
+}
+.body .interaction-youtube{
+    flex:1;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: -10px;
+
+}
+.body .interaction-facebook{
+    flex:1;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+.body .instagram-subscribers{
+    flex:5;
+    
+
+}
+.body .statistics{
+    flex:5;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    
+}
+.body .statistics-metrics{
+    background-color: white;
+    border-radius: 10px;
+    flex: 2;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+
+
+}
+.body .statistics-info{
+    flex: 1;
+    background-color: purple;
+    border-radius: 10px;
+    border: 2px;
+    width: 25%;
+    text-align: center;
+    
+}
+.body .statistics hr{
+    margin-top:3px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    margin-right:20px;
+    padding-left: 15px;
+}
+.body .statistics span, h5{
+    margin-left: 20px;
+}
+
+.body .impressions{
+    flex: 1;
+    border: 2px;
+    background-color: purple;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+
+}
+.body .statistics p{
+    color: white;
+}
+.body .users{
+    text-align: center;
+}
+.body .statistics h1{
+    color: white;
+}

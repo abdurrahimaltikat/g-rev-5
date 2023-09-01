@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <div class="home">
+        <!-- Sol kısım -->
+        <div class="icons">
+            <div class="eye">
+                <a href="#">
+                    <img src="./asset/icons/eye-solid.svg" alt="">
+                </a>
+                
+            </div>
+            <hr>
+            <div class="list">
+                <ul>
+                    <li><a href="#"><img class="icon" src="./asset/icons/heart-pulse-solid.svg" alt="heart"></a></li>
+                    <li><a href="#"><img class="icon" src="./asset/icons/satellite-dish-solid.svg" alt="satellite"></a></li>
+                    <li><a href="#"><img class="icon" src="./asset/icons/calendar-solid.svg" alt="callendar"></a></li>
+                    <li><a href="#"><img class="icon" src="./asset/icons/sliders-solid.svg" alt="slider"></a></li>
+                    <li><a href="#"><img class="icon" src="./asset/icons/comments-regular.svg" alt="comment"></a></li>
+                </ul>
+            </div>
+            <div class="exit">
+                <div class="exit-icon">
+                    <a href="#"><img src="./asset/icons/right-from-bracket-solid.svg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    <!-- orta kısım -->
+        <div class="body">
+            <div class="body header">
+                <div class="body header-icons">
+                    <a href="#"><img class="icon" src="./asset/icons/table-list-solid.svg" alt="slider" style="margin-right: 25px;"></a>
+                    <a href="#"><img class="icon" src="./asset/icons/bars-solid.svg" alt="slider"></a>
+                </div>
+                <div class="body header-select">
+                    <select class="select" id="time">
+                      <option value="15">Last 15 days</option>
+                      <option value="30">Last 30 days</option>
+                      <option value="45">Last 45 days</option>
+                      <option value="15" selected>Last 15 days</option>
+                    </select>
+                
+                </div>
+            </div>
+            <div class="body interaction">
+                <div class="body interaction-twitter">
+                    <a href="#">
+                        <img src="./asset/images/580b57fcd9996e24bc43c53e.png" alt="twitter"> 
+                        <br><br>
+                        <h1>280K</h1>
+                        <span>FOLLOWERS</span>
+                        <p>...</p>
+                    </a>
+                   
+                </div>
+                <div class="body interaction-instagram">
+                    <a href="#">
+                        <img src="./asset/images/purple-instagram.png" alt="instagram"> 
+                        <br><br>
+                        <h1>680K</h1>
+                        <span>FOLLOWERS</span>
+                        <p>...</p>
+                    </a>
+
+                </div>
+                <div class="body interaction-youtube">
+                    <a href="#">
+                        <img src="./asset/images/hd-youtube-logo-png-transparent-background-20.png" alt="youtube"> 
+                        <br><br>
+                        <h1>2.3M</h1>
+                        <span>FOLLOWERS</span>
+                        <p>...</p>
+                    </a>
+                </div>
+                <div class="body interaction-facebook">
+                    <a href="#">
+                        <img src="./asset/images/facebook-logo-transparent-11549681696nullxylgyy.png" alt="facebook"> 
+                        <br><br>
+                        <h1>50K</h1>
+                        <span>FOLLOWERS</span>
+                        <p>...</p>
+                    </a>
+                </div>
+            </div>
+            <div class="body instagram-subscribers">
+                <div class="mainWrapper">
+                    <div class="contentWrapper">
+                      <div class="chartMainWrapper">
+                      <div class="headerWrapper">
+                        <div class="textWrapper">
+                            <p class="title">Instagram Subscribers</p>
+                        </div>
+                        
+                        <div class="infoWrapper">
+                            <div class="gainbox" >
+                                <span class="gain-circle green"></span>
+                                <span class="text">Gained</span>
+                            </div>
+                            <div class="lostbox">
+                                
+                                <span class="gain-circle red"></span>
+                                <span class="text">Lost</span>
+                            </div>
+                        </div>
+                      </div> 
+                      <div class="mainContentWrapper">
+                        <canvas width="100%" height="30" id="chart1"></canvas>
+                      </div>
+                    </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="body statistics">
+                <div class="body statistics-metrics">
+                    <h5>Key Metrics</h3>
+                    <span>Clicks</span>
+                    <hr>
+                    <span>Likes</span>
+                    <hr>
+                    <span>Followers</span>
+                    <hr>
+                    <span>İmpressions</span>
+                    <hr>
+                </div>
+                
+                
+                <div class="body statistics-info">
+                    <p>Engaged Users</p>
+                    <h1>12.2k</h1>
+                    <br>                 
+                    <p>19%</p>                 
+                </div>
+                <div class="body impressions">
+                    
+                        <p>Page impressions</p>
+                        <h1>8.6k</h1>
+                        <br>
+                        <p>9%</p>
+                    
+                </div>
+            </div>
+        </div>
+    <!-- sağ kısım -->
+        <div class="interaction">
+            <div class="interaction header">
+                <div class="interaction icons">
+                   <img class="icon" src="./asset/icons/bell-regular.svg" alt="slider">
+                </div>
+                <div class="interaction button">
+                    <a href="#"><button>2 new updates</button></a>
+                </div>
+                <div class="interaction icons">
+                    <img class="icon" src="./asset/icons/circle-user-regular.svg" alt="slider">
+                </div>
+            </div>
+            <div class="interaction image">
+                <img src="./asset/images/scrum-svg.svg" alt="scrum">
+            </div>
+            <div class="interaction callendar">
+
+            </div>
+            <div class="connection">
+                <span> Say hi to Laith Hart</span>
+                <img src="./asset/images/men.png" alt="men">
+            </div>
+            <div class="connection">
+                <span> Say hi to Laith Hart</span>
+                <img src="./asset/images/woman.png" alt="men">
+            </div>
+        </div>
+    </div>
+    <script src="chart.js"></script>
+</body>
+</html>

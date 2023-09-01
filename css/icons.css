@@ -1,0 +1,40 @@
+.icons .eye img{
+
+    width:42px;
+}
+.icons .eye{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+}
+.icons .list{
+    display: flex;
+    flex:8;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.icons .list ul li{
+    all: unset;
+    margin: 30px;
+}
+.icons ul{
+    all:unset;
+    display: flex;
+    flex-direction: column;
+
+}
+.icons ul li a:hover{
+background-color: lightblue;
+    color: black;
+}
+.icons .exit{
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+.icons .exit-icon{
+    width: 36px;
+    
+}
